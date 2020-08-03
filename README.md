@@ -1,7 +1,7 @@
 WORKSHOP-01
 
 1.Data structure (Internal)
-  Array of String
+	Array of String
 
 2.Operations/Behavior/Methods ? user -> CB ?
   writeData(string):void
