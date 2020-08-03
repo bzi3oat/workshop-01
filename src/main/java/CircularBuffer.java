@@ -5,6 +5,7 @@ public class CircularBuffer {
     private int readPointer;
     private int writePointer;
 
+
     public boolean isEmpty() {
         return buffersize == 10;
     }
@@ -21,4 +22,5 @@ public class CircularBuffer {
     public String readData() {
         return this.buffer[readPointer++];
     }
+
 }

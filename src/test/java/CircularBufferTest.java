@@ -27,4 +27,17 @@ public class CircularBufferTest {
         assertEquals("A",cb.readData());
         assertEquals("B",cb.readData());
     }
+    @Test
+    public void Write_data_and_read_data_later() {
+        CircularBuffer cb = new CircularBuffer();
+        cb.writeData("A");
+        assertEquals("A", cb.readData());
+    }
+    @Test
+    public void Read_data_and_write_data_later() {
+        CircularBuffer cb = new CircularBuffer();
+        assertTrue(cb.isEmpty());
+        cb.writeData("A");
+        assertEquals("A", cb.readData());
+    }
 }
