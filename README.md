@@ -3,7 +3,7 @@
 **1.Data structure (Internal)**
   * Array of String
  
-** 2.Operations/Behavior/Methods ? user -> CB ? **
+**2.Operations/Behavior/Methods ? user -> CB?**
   * writeData(string):void
   * readData(): string
   * isFull(): boolean
